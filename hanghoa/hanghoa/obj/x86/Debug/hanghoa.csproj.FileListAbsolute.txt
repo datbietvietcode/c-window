@@ -1,0 +1,15 @@
+D:\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.Form1.resources
+D:\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.Properties.Resources.resources
+D:\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.csproj.GenerateResource.Cache
+D:\c#_visual\hanghoa\hanghoa\bin\Debug\hanghoa.exe.config
+D:\c#_visual\hanghoa\hanghoa\bin\Debug\hanghoa.mdf
+D:\c#_visual\hanghoa\hanghoa\bin\Debug\hanghoa_log.ldf
+D:\c#_visual\hanghoa\hanghoa\bin\Debug\hanghoa.exe
+D:\c#_visual\hanghoa\hanghoa\bin\Debug\hanghoa.pdb
+D:\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.exe
+D:\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.pdb
+D:\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.csprojResolveAssemblyReference.cache
+D:\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.combobox.resources
+C:\Users\ASUS\Desktop\c#_visual\hanghoa\hanghoa\bin\Debug\hanghoa.exe.config
+C:\Users\ASUS\Desktop\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.exe
+C:\Users\ASUS\Desktop\c#_visual\hanghoa\hanghoa\obj\x86\Debug\hanghoa.pdb

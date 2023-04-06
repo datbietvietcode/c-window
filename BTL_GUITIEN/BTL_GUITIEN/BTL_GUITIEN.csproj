@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13326962-C540-46D8-8072-ECC0A3E27D5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BTL_GUITIEN</RootNamespace>
+    <AssemblyName>BTL_GUITIEN</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChiNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiNhanh.Designer.cs">
+      <DependentUpon>ChiNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChucVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChucVu.Designer.cs">
+      <DependentUpon>ChucVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuiTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiTien.Designer.cs">
+      <DependentUpon>GuiTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HD_GT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HD_GT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HD_RT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HD_RT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonGT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDonGT.Designer.cs">
+      <DependentUpon>HoaDonGT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDonRT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDonRT.Designer.cs">
+      <DependentUpon>HoaDonRT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="In_STK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="In_STK.Designer.cs">
+      <DependentUpon>In_STK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachHang.Designer.cs">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="functions.cs" />
+    <Compile Include="KyHan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KyHan.Designer.cs">
+      <DependentUpon>KyHan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laisuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laisuat.Designer.cs">
+      <DependentUpon>Laisuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiTien.Designer.cs">
+      <DependentUpon>LoaiTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RutTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RutTien.Designer.cs">
+      <DependentUpon>RutTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoTK.Designer.cs">
+      <DependentUpon>SoTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STK.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STK.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKRT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKRT.Designer.cs">
+      <DependentUpon>TKRT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKTG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKTG.Designer.cs">
+      <DependentUpon>TKTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TK_GT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TK_GT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TK_RT.cs">
+      <DependentUpon>TK_RT.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TK_RT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TK_RT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TK_So.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TK_So.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChiNhanh.resx">
+      <DependentUpon>ChiNhanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChucVU.resx">
+      <DependentUpon>ChucVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiTien.resx">
+      <DependentUpon>GuiTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HDGT.rdlc" />
+    <EmbeddedResource Include="HoaDonGT.resx">
+      <DependentUpon>HoaDonGT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDonRT.rdlc" />
+    <EmbeddedResource Include="HoaDonRT.resx">
+      <DependentUpon>HoaDonRT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="In_STK.resx">
+      <DependentUpon>In_STK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KyHan.resx">
+      <DependentUpon>KyHan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laisuat.resx">
+      <DependentUpon>Laisuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoaiTien.resx">
+      <DependentUpon>LoaiTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TKHTRT.rdlc" />
+    <EmbeddedResource Include="TKRT.resx">
+      <DependentUpon>TKRT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKSOTK.rdlc" />
+    <EmbeddedResource Include="RutTien.resx">
+      <DependentUpon>RutTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoTK.resx">
+      <DependentUpon>SoTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="So_TK.rdlc" />
+    <EmbeddedResource Include="ThongKe.resx">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKTG.rdlc" />
+    <EmbeddedResource Include="TKTG.resx">
+      <DependentUpon>TKTG.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HD_GT.xsc">
+      <DependentUpon>HD_GT.xsd</DependentUpon>
+    </None>
+    <None Include="HD_GT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HD_GT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HD_GT.xss">
+      <DependentUpon>HD_GT.xsd</DependentUpon>
+    </None>
+    <None Include="HD_RT.xsc">
+      <DependentUpon>HD_RT.xsd</DependentUpon>
+    </None>
+    <None Include="HD_RT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HD_RT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="HD_RT.xss">
+      <DependentUpon>HD_RT.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="STK.xsc">
+      <DependentUpon>STK.xsd</DependentUpon>
+    </None>
+    <None Include="STK.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>STK.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="STK.xss">
+      <DependentUpon>STK.xsd</DependentUpon>
+    </None>
+    <None Include="TK_GT.xsc">
+      <DependentUpon>TK_GT.xsd</DependentUpon>
+    </None>
+    <None Include="TK_GT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TK_GT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TK_GT.xss">
+      <DependentUpon>TK_GT.xsd</DependentUpon>
+    </None>
+    <None Include="TK_RT.xsc">
+      <DependentUpon>TK_RT.xsd</DependentUpon>
+    </None>
+    <None Include="TK_RT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TK_RT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TK_RT.xss">
+      <DependentUpon>TK_RT.xsd</DependentUpon>
+    </None>
+    <None Include="TK_So.xsc">
+      <DependentUpon>TK_So.xsd</DependentUpon>
+    </None>
+    <None Include="TK_So.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TK_So.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TK_So.xss">
+      <DependentUpon>TK_So.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasted image 0.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+D:\c#_visual\Quanlybanhang\Quanlybanhang\bin\Debug\Quanlybanhang.exe
+D:\c#_visual\Quanlybanhang\Quanlybanhang\bin\Debug\Quanlybanhang.pdb
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.BangSp.resources
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.Form1.resources
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.Properties.Resources.resources
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.csproj.GenerateResource.Cache
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.exe
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.pdb
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.KhachHang.resources
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.HoaDon.resources
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.InHoaDon.resources
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\RdlCompile.cache
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\RdlCompile.compiled
+D:\c#_visual\Quanlybanhang\Quanlybanhang\obj\x86\Debug\Quanlybanhang.csprojResolveAssemblyReference.cache
